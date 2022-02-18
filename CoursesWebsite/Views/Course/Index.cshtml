@@ -1,0 +1,9 @@
+﻿@model IEnumerable<CoursesWebsite.Models.CourseModel>
+
+@{
+    ViewBag.Title = "Course List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("_ViewListCourses", Model)
+
