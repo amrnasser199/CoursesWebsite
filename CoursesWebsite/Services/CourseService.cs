@@ -24,6 +24,7 @@ namespace CoursesWebsite.Services
         {
             course.Creation_Date = DateTime.Now;
             db.Courses.Add(course);
+
             return db.SaveChanges();
         }
 
